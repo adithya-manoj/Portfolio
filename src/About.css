@@ -1,0 +1,10 @@
+.skill{
+    background-color: rgb(223, 220, 220);
+    color: rgb(0, 0, 0);
+    margin: 2px;
+    padding: 2px 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
