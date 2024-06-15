@@ -25,7 +25,7 @@ function NavbarComp() {
       <Navbar bg="white" data-bs-theme="white" fixed="top">
         <Container className='p-0'>
           <Link to='/App' style={{textDecoration:'none'}}>
-          <Navbar.Brand href="#home" > <img src={dp} style={{ width: '55px', height: '50px' }} className='img-fluid rounded-pill ' /> Adithya Manoj V</Navbar.Brand>
+          {/* <Navbar.Brand href="#home" > <img src={dp} style={{ width: '55px', height: '50px' }} className='img-fluid rounded-pill ' /> Adithya Manoj V</Navbar.Brand> */}
           </Link>
           
           <Nav>

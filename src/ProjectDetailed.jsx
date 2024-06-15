@@ -20,7 +20,7 @@ import reactimg from './images/react.svg'
 // import portfolioimg from './images/portfolio.png'
 
 
-export const Casedata = () => {
+export const ProjectDetailed = () => {
     let Casedata=[
     {
     projectname:'Portfolio',
@@ -129,4 +129,4 @@ export const Casedata = () => {
   )
 }
 
-export default Casedata
+export default ProjectDetailed

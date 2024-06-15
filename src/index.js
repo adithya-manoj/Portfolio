@@ -4,17 +4,17 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './Navbar';
-import MoreAbout from './MoreAbout';
+import CardDisplay from './CardDisplay';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <NavbarComp />
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/MoreAbout" element={<MoreAbout/>} />
-        <Route path="/App"  element={<App/>}/>
+        <Route path="/" element={<App/>} />
+        <Route path="/CardDisplay" element={<CardDisplay />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

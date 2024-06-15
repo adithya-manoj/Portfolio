@@ -97,7 +97,7 @@ function About(props) {
 
         <Row>
         <Col md={6}>
-          <Card className="p-4 border">
+          <Card className="p-4 border h-100">
             <Card.Title>Get to Know Me!</Card.Title>
             <Card.Text>
               I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product.
@@ -116,7 +116,7 @@ function About(props) {
         {/* Skill Div Starts Here */}
 
         <Col md={6}>
-          <Card className="p-4 border">
+          <Card className="p-4 border h-100">
             <Card.Title>Skills</Card.Title>
             <div>
             <Row>
